@@ -1,0 +1,89 @@
+{% extends 'base.html' %} {% load static %} {% block title %} Dashboard {% endblock title %} 
+{% block content %}
+
+<div class="container m-5">
+  <div class="row d-flex justify-content-center ml-auto mr-auto">
+    <div class="col-dm-12">
+      <div class="card">
+        <div class="card-header">
+          <h2>Applicant List</h2>
+        </div>
+        <div class="card-body">
+          <input type="text" id="search" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+          <table class="table" id="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Apply Date</th>
+                <th>Resume</th>
+                <th>Status</th>
+                <th>Change Status</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for apply in applicant %}
+              <tr>
+                <th scope="row">{{apply.id}}</th>
+                <td>{{apply.user.username}}</td>
+                <td>{{apply.job_post.job_title}}</td>
+                <td>{{apply.create_date}}</td>
+                <td>
+                  <a
+                    href="{{apply.resume.url}}"
+                    role="download"
+                    class="btn btn-success"
+                    target="_blank"
+                  >
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                  </a>
+                </td>
+                <td>{{apply.status}}</td>
+                <td>
+                  <a
+                    href="{% url 'job:change-status' apply.id %}"
+                    class="btn btn-success btn-block rounded-pill"
+                    target="_blank"
+                    ><i class="fas fa-edit"></i
+                  ></a>
+                </td>
+                <td>
+                  <a
+                    class="btn btn-danger btn-block rounded-pill"
+                    href=" {% url 'job:delete' apply.id %} "
+                    ><i class="fas fa-trash fa-lg"></i
+                  ></a>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function myFunction() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("search");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("table");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+  }
+  </script>
+
+{% endblock content %}

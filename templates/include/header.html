@@ -1,0 +1,32 @@
+{% load static %}
+<!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" > -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container px-4 px-lg-3">
+        {% if request.user.is_authenticated %}
+        <a class="navbar-username" href="{% url 'job:home' %}">Welcome {{request.user.username}}</a>
+        {% else %}
+        <a class="navbar-brand" href="{% url 'job:home' %}">Welcome Guest</a>
+        {% endif %}        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto py-4 py-lg-0 d-flex align-items-center">
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'job:home' %}">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'job:about' %}">About</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'job:contact' %}">Contact</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'job:carrier' %}">Carrier</a></li>
+                {% if request.user.is_staff %}
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'job:hr-recuter'%}">HR Recuter</a></li>
+                {% endif %}
+                {% if request.user.is_authenticated %}
+                <li class="nav-item"><a class="nav-link  btn btn-warning" href="{% url 'job:logout' %}">Log Out</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link mx-2 btn btn-success rounded-pill" href="{% url 'job:register' %}">Register</a></li>
+                <li class="nav-item"><a class="nav-link mx-2 btn btn-danger rounded-pill" href="{% url 'job:login' %}">Login</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>

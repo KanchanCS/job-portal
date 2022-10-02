@@ -1,0 +1,48 @@
+ {% extends 'base.html' %}
+ {% load static %}
+ {% block title %}
+{{request.user.username}}
+ {% endblock title %}
+
+ 
+ {% block content %}
+ <header class="masthead" style="background-image: url({{job_id.job_image.url}})">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>Application Form</h1>
+                    <span class="subheading">
+                        Good Skills and Get the Job
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+           <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    {{job_id.job_title}}
+                </div>
+                <div class="card-body">
+                    <form method="post"  enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{form.as_p}}
+
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+</main>
+
+
+ {% endblock content %}
+

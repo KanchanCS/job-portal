@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    {{applicant.user.username}}
+{% endblock title %}
+{% block content %}
+
+<div class="container  m-5">
+  <div class="row">
+    <div class="col-md-12 mb-5">
+      <div class="card">
+        <div class="card-header">
+         <h2> Applicant</h2>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Apply Date</th>
+                <th>Resume</th>
+                <th>Status</th>
+                <th>Change Status</th>
+                <th>Delete</th>
+                <th>Shedule</th>
+              </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <th scope="row">{{applicant.id}}</th>
+              <td>{{applicant.user.username}}</td>
+              <td>{{applicant.job_post.job_title}}</td>
+              <td>{{applicant.create_date}}</td>
+              <td><a href="{{applicant.resume.url}}" role="download" class="btn btn-success" target="_blank"> <i class="fa fa-download" aria-hidden="true"></i> </a></td>
+              <td>{{applicant.status}}</td>
+              <form method="post">
+                {% csrf_token %}
+                <td>
+                    <select name="status" id="id_status">
+                        {% for x,y in form.fields.status.choices %}
+                            <option value="{{ x }}"{% if form.fields.gender.value == x %} selected{% endif %}>{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td><button type="submit" class="btn btn-success p-1"><i class="fas fa-save fa-lg fa-fw"></i> </button></td>
+              </form>
+              <td>
+                 <a href="{% url 'job:shedule' applicant.job_post.id  %}" class="btn btn-outline-success"> <i class="fa fa-times-circle" ></i> </a>
+              </td>
+            </tr>   
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

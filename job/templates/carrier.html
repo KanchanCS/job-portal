@@ -1,0 +1,166 @@
+{% extends 'base.html' %} {% load static %} {% load humanize %} {% block title %} CARRIER {% endblock title %} {% block content %}
+<header
+  class="masthead"
+  style="background-image: url('static/assets/img/home-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="site-heading">
+          <h1>Find Carrier</h1>
+          <span class="subheading">One Of the best Job Portal </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Main Content-->
+<div class="container">
+  <!-- company details -->
+  <div class="row">
+    <div class="col-md-6">
+      <h6>
+        <strong>You Want To Work With Us. So Be Smart And Innovative.</strong>
+      </h6>
+      <br />
+      <h2><strong>We Are With You In Your Success.</strong></h2>
+      <p>
+        Welcome to<a href="aaratechnologies Pvt Ltd"></a> It Takes a new kind of
+        Intelligence to nevigate a new world.
+      </p>
+      <br />
+      <h3><strong>Website:</strong></h3>
+      <a href="https://aaratechnologies.com/"
+        ><strong>https://aaratechnologies.com</strong></a
+      >
+      <br /><br />
+      <!-- <strong class="sub-title">Contact Us:</strong><br> <a href="tel: +919266667999"><strong>+919266667999</strong></a> -->
+      <h3><strong>Contact:</strong></h3>
+      <a href="tel: +919266667999"><strong>+919266667999</strong></a>
+    </div>
+    <!-- End company details -->
+    <div class="col-md-6">
+      {% for job in page_obj %}
+      <div class="accordion mb-4" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading{{job.id}}">
+            <button
+              class="accordion-button rounded-pill"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse{{job.id}}"
+              aria-expanded="true"
+              aria-controls="collapse{{job.id}}"
+            >
+              {{job.id}}2022ARA | {{job.job_title|truncatewords:4}}
+              |{{job.created_date|naturalday}}
+            </button>
+          </h2>
+          <div
+            id="collapse{{job.id}}"
+            class="accordion-collapse collapse"
+            aria-labelledby="heading{{job.id}}"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="sub-title">
+                <h5>Year Of Experience :</h5>
+                <p>{{job.expercince}}</p>
+              </div>
+              <div class="sub-title">
+                <h5>No. Of Position:</h5>
+                <p>{{job.vacancy}}</p>
+              </div>
+              <div class="sub-title">
+                <h5>Reqierment Skills</h5>
+                <p>{{job.required_skill}}</p>
+              </div>
+              <hr />
+              <div class="sub-title">
+                <h5>Eligibility:</h5>
+                <p>{{job.job_detail}}</p>
+              </div>
+              <a
+                href="{% url 'job:apply' job.id %}"
+                class="btn btn-primary rounded-pill"
+                >Apply</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="pagination">
+        <span class="step-links">    
+            
+    
+        </span>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                {% if page_obj.has_previous %}
+                <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+                {% endif %}
+              </li>
+              <li class="page-item">
+                <span class="current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+              </li >
+              <li class="page-item">
+                {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                {% endif %} 
+              </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    {% if request.user.is_staff %}
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Create  Job
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create Job Post</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form method="post"  enctype="multipart/form-data">
+          <div class="modal-body">
+            {% csrf_token %}
+            {{form.as_p}}
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock content %}

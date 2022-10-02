@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+login
+{% endblock title %}
+{% block content %}
+
+<header
+  class="masthead"
+  style="background-image: url('assets/img/contact-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>Login User</h1>
+          <span class="subheading">Enjoy More Updates and Alerts</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="py-4">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-title text-center py-4">
+                        <h1>Welcome to User</h1>
+                    </div>
+                    <div class="card-body">
+                      <form action="" method="post">
+                        {% csrf_token %}
+                        {{login_form.as_p}}
+                        {% if request.GET.next %}
+                        <input type="hidden" name="next" value="{{request.GET.next}}">
+                        {% endif %}
+                        <input type="submit" class="btn p-2 btn-success" value="Login">
+                      </form>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn  p-2 btn-danger btn-block rounded-pill" href="{% url 'job:register' %}"> <i class="fa fa-user-circle" aria-hidden="true"></i> Register</a>
+                      <small class="small-text"> If you don't have account then Register ! <i class="fa fa-smile-o" aria-hidden="true"></i>  </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card"><img src="{% static 'assets/img/home-bg.jpg' %}" alt="" class="card-img-top"></div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock content %}
+

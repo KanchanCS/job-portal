@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block content %}
+
+<div class="container  m-5">
+  <div class="row d-flex justify-content-center ml-auto mr-auto ">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h2>Interview Shadule</h2>
+        </div>
+        <div class="card-body">
+              <form action="" method="post">
+                  {% csrf_token %}
+                  {{form.as_p}}
+                  <button type="submit" title="shadule" class="btn btn-success btn-block mt-4">Send Email</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

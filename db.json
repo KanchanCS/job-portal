@@ -1,0 +1,1262 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-09-09T10:53:46.314Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Company object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-09-09T10:58:12.209Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "JobPost object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-09-09T11:04:41.300Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "JobPost object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-09-10T05:08:16.365Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Software Developer for any Candidate experiance non experiance",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-09-10T18:52:05.257Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "AARA Technologies",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-09-10T18:55:43.703Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Web Developement",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-09-10T19:10:37.673Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Post Graduate Program in Full Stack Web Development",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-09-10T19:12:30.995Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Full Stack Web Development",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-09-10T19:14:29.965Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Full Stack Web Development",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-09-10T19:19:35.705Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Digital Marketing Executive",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-09-10T19:23:15.894Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "PHP Developer Job Description",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-09-10T19:25:32.804Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Tester job description",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-09-10T19:26:41.456Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Tester job description",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Required skill\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-09-12T10:41:16.462Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "AARA Technologies",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-09-12T17:04:24.196Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "Jone",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-09-12T17:04:24.373Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Kanchan",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-09-12T17:04:24.459Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Rohan123",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-09-12T17:04:24.543Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "kanchan_yadav",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-09-12T17:04:24.639Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "webdev123",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-09-13T06:22:44.010Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "11",
+            "object_repr": "rahul",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-09-13T06:22:44.107Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "12",
+            "object_repr": "rahul1",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-09-13T06:22:44.192Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "13",
+            "object_repr": "rahul2",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-09-13T06:22:44.277Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "14",
+            "object_repr": "rahul3",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-09-13T08:27:24.458Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "7",
+            "object_repr": "Kanchan",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-09-13T08:27:24.699Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "8",
+            "object_repr": "Shalu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-09-13T08:27:24.783Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "10",
+            "object_repr": "kanchan",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-09-13T08:27:24.857Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "15",
+            "object_repr": "rahul",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-09-13T08:27:24.941Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "16",
+            "object_repr": "rahul1",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-09-13T08:27:25.050Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "17",
+            "object_repr": "rahul3",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-09-13T08:27:25.124Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "9",
+            "object_repr": "shalu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-09-14T04:39:36.320Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Tester job description",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\", \"Required skill\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-09-14T04:39:57.226Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "PHP Developer Job Description",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-09-14T04:40:34.975Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Digital Marketing Executive",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-09-14T04:41:37.121Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Full Stack Web Development",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\", \"Required skill\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-09-14T04:41:57.728Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Web Developement",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-09-14T04:42:05.885Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Web Developement",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-09-14T04:42:32.282Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Software Developer for any Candidate experiance non experiance",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job detail\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-09-14T04:45:03.006Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "PHP Developer Job Description",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-09-14T07:28:50.031Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "Madhu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-09-14T07:28:50.166Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "10",
+            "object_repr": "Madhu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-09-14T07:28:50.251Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "9",
+            "object_repr": "Madhu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-09-14T07:28:50.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "8",
+            "object_repr": "Madhu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2022-09-14T07:29:52.954Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "18",
+            "object_repr": "kanchan",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2022-09-14T07:29:54.779Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "19",
+            "object_repr": "madhu",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2022-09-14T07:30:30.759Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "admin",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2022-09-14T07:30:30.930Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "admin",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add contact",
+            "content_type": 7,
+            "codename": "add_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change contact",
+            "content_type": 7,
+            "codename": "change_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete contact",
+            "content_type": 7,
+            "codename": "delete_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view contact",
+            "content_type": 7,
+            "codename": "view_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add company",
+            "content_type": 8,
+            "codename": "add_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change company",
+            "content_type": 8,
+            "codename": "change_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete company",
+            "content_type": 8,
+            "codename": "delete_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view company",
+            "content_type": 8,
+            "codename": "view_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add job post",
+            "content_type": 9,
+            "codename": "add_jobpost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change job post",
+            "content_type": 9,
+            "codename": "change_jobpost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete job post",
+            "content_type": 9,
+            "codename": "delete_jobpost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view job post",
+            "content_type": 9,
+            "codename": "view_jobpost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add applicant",
+            "content_type": 10,
+            "codename": "add_applicant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change applicant",
+            "content_type": 10,
+            "codename": "change_applicant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete applicant",
+            "content_type": 10,
+            "codename": "delete_applicant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view applicant",
+            "content_type": 10,
+            "codename": "view_applicant"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$QcQmuILgguINbOCa0NrPZi$00+enu3s+HLWMhAKaT8Pnmwrh0z2VIMYOaRh4SyhReo=",
+            "last_login": "2022-09-14T16:06:44.290Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@job.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-09-09T05:08:02.469Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 20,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$vMDcaq5AqxQFV00WCWc6qL$2khJwQYyLnYpj7S+rcs0p69Kq40+ek0tp4Lu2u8CAMY=",
+            "last_login": "2022-09-14T07:20:58.014Z",
+            "is_superuser": false,
+            "username": "Madhu",
+            "first_name": "madhu",
+            "last_name": "madhu",
+            "email": "imkanchan7422@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-09-14T07:20:55.887Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 21,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$R03yAbICLsBjndQ8sS1yE6$nkWvEpUjpcNkYjSu2G9ERt9QKmCSYNTr0rE6aR5z6HU=",
+            "last_login": "2022-09-14T07:32:12.713Z",
+            "is_superuser": false,
+            "username": "kanchan",
+            "first_name": "kanchan",
+            "last_name": "yadav",
+            "email": "imkanchan7422@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-09-14T07:32:10.660Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hqmygqc2xd9ge2datvxxyqlwy9odf8xk",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHzh5TpfQa0sOvgJALJ2FWUu0dILpL2zcx7swjHXuLRaYsrsisT7PK7JchPqgPgA-q98dzqvq2JD4WftPO5Ib1up_t3UKCXUUuN5EVYyPrJkZEOUEgyQVKeLKXFCYMpGEeKlA9Z6SxB6mCERWcNsM8X6EQ3uA:1oWWxZ:mn4R-EF9VX4-UNHSWDkkUS9L6I3A824T4fLKCpArtes",
+            "expire_date": "2022-09-23T05:53:49.972Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hzuo058bsr6s90cxm9zoczp7e6b7vr39",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHzh5TpfQa0sOvgJALJ2FWUu0dILpL2zcx7swjHXuLRaYsrsisT7PK7JchPqgPgA-q98dzqvq2JD4WftPO5Ib1up_t3UKCXUUuN5EVYyPrJkZEOUEgyQVKeLKXFCYMpGEeKlA9Z6SxB6mCERWcNsM8X6EQ3uA:1oYUjS:VjdC7rIMZxfk9uLhKUS9q43_blAaZONPBENxgjdKQWg",
+            "expire_date": "2022-09-28T15:55:22.776Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "i7l598yh0xzd05liysyyp5tto9y8kojx",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHzh5TpfQa0sOvgJALJ2FWUu0dILpL2zcx7swjHXuLRaYsrsisT7PK7JchPqgPgA-q98dzqvq2JD4WftPO5Ib1up_t3UKCXUUuN5EVYyPrJkZEOUEgyQVKeLKXFCYMpGEeKlA9Z6SxB6mCERWcNsM8X6EQ3uA:1oYUuS:hMnGuWXI6dbOW_Cy_xajz-GwVJxAv-nDGA4Hx3EgWHA",
+            "expire_date": "2022-09-28T16:06:44.375Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "zxn6qjg6ak9ugskljawq55gannqphudt",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHzh5TpfQa0sOvgJALJ2FWUu0dILpL2zcx7swjHXuLRaYsrsisT7PK7JchPqgPgA-q98dzqvq2JD4WftPO5Ib1up_t3UKCXUUuN5EVYyPrJkZEOUEgyQVKeLKXFCYMpGEeKlA9Z6SxB6mCERWcNsM8X6EQ3uA:1oX5Us:xJZ9LyZbZJcz0CJ-cF85B-b7rOfZxAaMPG0f7zt1y1o",
+            "expire_date": "2022-09-24T18:46:30.882Z"
+        }
+    },
+    {
+        "model": "job.company",
+        "pk": 1,
+        "fields": {
+            "name": "Tata  Consultancy",
+            "about": "Tata Communications Limited is an Indian telecommunications company previously known as Videsh Sanchar Nigam Limited. It was previously a government- owned-telecommunications service provider and under the ownership of Department of Telecommunications, Ministry of Communications, Government of India",
+            "company_url": "https://www.tatacommunications.com/",
+            "create_date": "2022-09-09T10:53:46.313Z",
+            "updated_date": "2022-09-09T10:53:46.313Z"
+        }
+    },
+    {
+        "model": "job.company",
+        "pk": 2,
+        "fields": {
+            "name": "AARA Technologies",
+            "about": "Based in India, we are engaged in best-in-domain IT consulting, web designing, development & digital marketing solutions. In addition, we also provide cloud solutions and hosting services to our global clients. We help enterprises, agencies, SMEs and startups to design, develop and evolve advance software that supplies their ad-hoc software needs and brings ideas to life Founded in 2016, AARA Technologies is proud to be led by extremely focused and dedicated professionals, who are known for their entrepreneurial skills, experience, and expertise in a wide spectrum of industries.",
+            "company_url": "https://aaratechnologies.com/",
+            "create_date": "2022-09-10T18:52:05.252Z",
+            "updated_date": "2022-09-12T10:41:16.458Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 1,
+        "fields": {
+            "company": 1,
+            "job_title": "Software Developer for any Candidate experiance non experiance",
+            "job_detail": "B.Tech, B.E, MCA, BCA degree in Computer Science or equivalent experience.",
+            "job_image": "None/job_detail/john-towner-JgOeRuGD_Y4-unsplash.jpg",
+            "job_type": "Technical",
+            "required_skill": "Python , Version Control",
+            "is_active": true,
+            "created_date": "2022-09-09T10:58:12.206Z",
+            "end_date": "2022-09-20T10:57:54Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 2,
+        "fields": {
+            "company": 2,
+            "job_title": "Web Developement",
+            "job_detail": "B.Tech, B.E, MCA, BCA degree in Computer Science or equivalent experience.",
+            "job_image": "None/job_detail/alexandru-acea-XEB8y0nRRP4-unsplash.jpg",
+            "job_type": "React.js Developer Job Description",
+            "required_skill": "HTML  CSS   Javascript   Node.js  React.js",
+            "is_active": true,
+            "created_date": "2022-09-10T18:55:42.103Z",
+            "end_date": "2022-09-10T18:55:38Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 3,
+        "fields": {
+            "company": 2,
+            "job_title": "Full Stack Web Development",
+            "job_detail": "B.Tech, B.E, MCA, BCA degree in Computer Science or equivalent experience.",
+            "job_image": "None/job_detail/software-1.webp",
+            "job_type": "Post Graduate Program in Full Stack Web Developmen",
+            "required_skill": "HTML , CSS , AJAX ,  JavaScripts,   python Django",
+            "is_active": true,
+            "created_date": "2022-09-10T19:10:37.669Z",
+            "end_date": "2022-09-15T19:10:33Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 4,
+        "fields": {
+            "company": 2,
+            "job_title": "Digital Marketing Executive",
+            "job_detail": "BAny Graduate with good communication skill.",
+            "job_image": "None/job_detail/chris-barbalis-oOBMoCOgGrY-unsplash.jpg",
+            "job_type": "Digital Marketing Specialist Job Description: Top",
+            "required_skill": "HTML CSS ALAX",
+            "is_active": true,
+            "created_date": "2022-09-10T19:19:34.172Z",
+            "end_date": "2022-09-10T19:19:31Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 5,
+        "fields": {
+            "company": 2,
+            "job_title": "PHP Developer Job Description",
+            "job_detail": "B.Tech, B.E, MCA, BCA degree in Computer Science or equivalent experience.",
+            "job_image": "None/job_detail/belinda-fewings-MnfIvDuGkOE-unsplash.jpg",
+            "job_type": "Apply to Join the World's Top Talent Network",
+            "required_skill": "HTML, CSS, AJAX,  JavaScript, WordPress, PHP",
+            "is_active": true,
+            "created_date": "2022-09-10T19:23:14.298Z",
+            "end_date": "2022-09-10T19:23:12Z"
+        }
+    },
+    {
+        "model": "job.jobpost",
+        "pk": 6,
+        "fields": {
+            "company": 2,
+            "job_title": "Tester job description",
+            "job_detail": "B.Tech, B.E, MCA, BCA degree in Computer Science or equivalent experience.",
+            "job_image": "None/job_detail/metaimage.png",
+            "job_type": "Tester responsibilities include",
+            "required_skill": "Proven experience as a Quality Assurance Tester or similar role,   \r\n\r\nExcellent communication skills",
+            "is_active": true,
+            "created_date": "2022-09-10T19:25:31.000Z",
+            "end_date": "2022-09-10T19:25:28Z"
+        }
+    },
+    {
+        "model": "job.applicant",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "job_post": 6,
+            "resume": "resume/Resume_pdf_3fG6LwA.pdf",
+            "github": "https://github.com/KanchanCS",
+            "linkedin": "https://github.com/KanchanCS",
+            "status": "",
+            "create_date": "2022-09-14",
+            "updated_date": "2022-09-14"
+        }
+    },
+    {
+        "model": "job.applicant",
+        "pk": 12,
+        "fields": {
+            "user": 20,
+            "job_post": 3,
+            "resume": "resume/Resume_pdf_B0qT2Lh.pdf",
+            "github": "https://github.com/KanchanCS",
+            "linkedin": "https://github.com/KanchanCS",
+            "status": "",
+            "create_date": "2022-09-14",
+            "updated_date": "2022-09-14"
+        }
+    },
+    {
+        "model": "job.applicant",
+        "pk": 13,
+        "fields": {
+            "user": 21,
+            "job_post": 3,
+            "resume": "resume/Resume_5ePeAPv.docx",
+            "github": "https://github.com/KanchanCS",
+            "linkedin": "https://github.com/KanchanCS",
+            "status": "",
+            "create_date": "2022-09-14",
+            "updated_date": "2022-09-14"
+        }
+    },
+    {
+        "model": "job.applicant",
+        "pk": 14,
+        "fields": {
+            "user": 21,
+            "job_post": 3,
+            "resume": "resume/Resume_6wwguKN.docx",
+            "github": "https://github.com/KanchanCS",
+            "linkedin": "https://github.com/KanchanCS",
+            "status": "",
+            "create_date": "2022-09-14",
+            "updated_date": "2022-09-14"
+        }
+    }
+]
